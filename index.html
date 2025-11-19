@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>María Osorio — Publicidad · Marketing · Creadora de Contenido</title>
+<meta name="description" content="María Osorio — Publicidad, marketing y creación de contenido. Reels, campañas y marketing visual para marcas que quieren destacar." />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --rosa-palo: #F4DDE2;
+    --beige: #F7F2EC;
+    --gris: #D8D6D2;
+    --texto: #222222;
+    --blanco: #ffffff;
+    --accent: #dba6ad;
+    --max-width: 1000px;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:var(--texto); background:var(--blanco);}
+  a{color:inherit;text-decoration:none}
+  .container{max-width:var(--max-width);margin:0 auto;padding:28px;}
+  /* Header */
+  header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0;}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo-circle{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,var(--rosa-palo),var(--beige));display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--texto);font-family:Poppins}
+  .brand h1{margin:0;font-size:16px;font-weight:700}
+  nav{display:flex;gap:12px;align-items:center}
+  nav a{padding:8px 12px;border-radius:10px;font-weight:600}
+  .btn-primary{background:var(--texto);color:var(--blanco);padding:10px 14px;border-radius:10px}
+  .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:28px 0;}
+  .eyebrow{display:inline-block;background:var(--rosa-palo);padding:6px 10px;border-radius:999px;font-weight:600;margin-bottom:12px}
+  h2{font-family:Poppins;font-size:34px;line-height:1.02;margin:8px 0 12px}
+  p.lead{color:#444;margin:0 0 18px}
+  .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+  .card-img{background:linear-gradient(180deg,var(--beige),#fff);border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(0,0,0,0.06);display:flex;flex-direction:column;gap:12px;align-items:center}
+  .card-img img{width:100%;border-radius:10px;object-fit:cover;max-height:360px}
+  /* Sections */
+  .section{padding:32px 0;border-top:1px solid var(--gris)}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .service{background:var(--beige);padding:18px;border-radius:12px}
+  .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .portfolio-item{border-radius:10px;overflow:hidden;min-height:120px;display:flex;align-items:end;background:#eee;padding:12px;color:#222}
+  footer{padding:28px 0;color:#444;border-top:1px solid var(--gris);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+  .socials{display:flex;gap:10px}
+  .small{font-size:13px;color:#555}
+  /* Responsive */
+  @media (max-width:980px){
+    .hero{grid-template-columns:1fr}
+    .card-img img{max-height:300px}
+    .grid-3{grid-template-columns:repeat(2,1fr)}
+    .portfolio-grid{grid-template-columns:repeat(2,1fr)}
+  }
+  @media (max-width:600px){
+    .grid-3{grid-template-columns:1fr}
+    .portfolio-grid{grid-template-columns:1fr}
+    nav{display:none}
+    header{padding:8px 0}
+  }
+  /* contact form */
+  .contact-box{background:linear-gradient(180deg,#fff,var(--beige));padding:18px;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.06)}
+  input,textarea{width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:8px;font-size:14px;margin-bottom:10px}
+  textarea{min-height:120px;resize:vertical}
+  .btn-ghost{padding:10px 14px;border-radius:10px;border:1px solid var(--texto);background:transparent}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="brand">
+      <div class="logo-circle">MO</div>
+      <div>
+        <h1>María Osorio</h1>
+        <div class="small">Publicidad · Marketing · Creadora de Contenido</div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#services">Servicios</a>
+      <a href="#portfolio">Portafolio</a>
+      <a href="#contact" class="btn-primary">Trabaja conmigo</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <span class="eyebrow">Publicidad · Marketing</span>
+      <h2>Contenido que vende, estética que conecta.</h2>
+      <p class="lead">Estrategia, creatividad y ejecución para marcas modernas. Reels, campañas y marketing visual pensado para convertir y enamorar.</p>
+
+      <div class="cta-row">
+        <a class="btn-primary" href="#contact">Trabaja conmigo</a>
+        <a class="btn-ghost" href="#portfolio">Ver portafolio</a>
+      </div>
+
+      <!-- Highlights -->
+      <div style="display:flex;gap:12px;margin-top:20px;flex-wrap:wrap">
+        <div style="background:var(--rosa-palo);padding:8px 12px;border-radius:10px;font-weight:700">Publicidad</div>
+        <div style="background:var(--beige);padding:8px 12px;border-radius:10px;font-weight:700">Contenido</div>
+        <div style="background:#fff;border:1px solid var(--gris);padding:8px 12px;border-radius:10px;font-weight:700">Marketing</div>
+      </div>
+    </div>
+
+    <aside class="card-img">
+      <!-- Reemplaza esta imagen por la tuya: ponla en la misma carpeta y cambia el src -->
+      <img id="heroImg" src="hero-placeholder.jpg" alt="María Osorio — marketing">
+      <div style="width:100%;display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-weight:700">Servicios rápidos</div>
+          <div class="small">Estrategia · Reels · Social Ads</div>
+        </div>
+        <div style="font-weight:700;color:var(--accent)">Disponible</div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap">
+      <div style="flex:1;min-width:260px">
+        <h3>Hola, soy María ✨</h3>
+        <p class="small">Trabajo en publicidad y marketing, y soy creadora de contenido. Transformo ideas en contenido visual y campañas que conectan con la audiencia correcta.</p>
+        <ul>
+          <li>📌 Estrategia de marketing</li>
+          <li>🎥 Reels y vídeo para redes</li>
+          <li>📈 Campañas y social ads</li>
+          <li>🎨 Marketing visual para arquitectura</li>
+        </ul>
+      </div>
+      <div style="width:320px">
+        <div class="contact-box">
+          <div style="font-weight:700;margin-bottom:8px">¿Quieres trabajar conmigo?</div>
+          <div class="small">Mándame un email o WhatsApp y cuéntame tu proyecto.</div>
+          <div style="display:flex;gap:8px;margin-top:10px">
+            <a class="btn-primary" href="mailto:TU_EMAIL_AQUI@gmail.com">Email</a>
+            <a class="btn-ghost" href="https://wa.me/ESNUMEROTU?text=Hola%20Mar%C3%ADa%2C%20quiero%20hablar%20de%20mi%20proyecto">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <h3>Servicios</h3>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="service">
+        <h4>Publicidad & Marketing</h4>
+        <p class="small">Estrategia, campañas y optimización de anuncios en Instagram y TikTok.</p>
+      </div>
+      <div class="service">
+        <h4>Creación de contenido</h4>
+        <p class="small">Reels, vídeos cortos y fotos pensadas para la plataforma.</p>
+      </div>
+      <div class="service">
+        <h4>Marketing para arquitectura</h4>
+        <p class="small">Narrativa visual de proyectos, moodboards y edición de obra.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <h3>Portafolio</h3>
+    <p class="small">Ejemplos reales de reels, campañas y branding visual.</p>
+
+    <div class="portfolio-grid" style="margin-top:14px">
+      <div class="portfolio-item" style="background-image:url('port1.jpg');background-size:cover;background-position:center"> <div style="padding:10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.35));width:100%;color:white"><strong>Reels — Arquitectura</strong><div class="small">Edición + storytelling</div></div></div>
+
+      <div class="portfolio-item" style="background-image:url('port2.jpg');background-size:cover;background-position:center"> <div style="padding:10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.35));width:100%;color:white"><strong>Campaña — Producto</strong><div class="small">Ads + Creatividades</div></div></div>
+
+      <div class="portfolio-item" style="background-image:url('port3.jpg');background-size:cover;background-position:center"> <div style="padding:10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.35));width:100%;color:white"><strong>Branding visual</strong><div class="small">Moodboard & Feed</div></div></div>
+
+      <!-- agrega más items copiando el div -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h3>Contacto</h3>
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:12px;align-items:start;">
+      <div>
+        <p class="small">Cuéntame tu proyecto: presupuesto aproximado, tiempos y a quién quieres llegar.</p>
+
+        <!-- Form simple con mailto (no requiere backend) -->
+        <form id="contactForm" onsubmit="sendMail(event)">
+          <input id="name" placeholder="Tu nombre" required />
+          <input id="email" type="email" placeholder="Tu email" required />
+          <textarea id="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+          <button type="submit" class="btn-primary">Enviar mensaje</button>
+        </form>
+
+        <div id="formMsg" style="margin-top:12px;display:none" class="small"></div>
+      </div>
+
+      <aside>
+        <div style="background:var(--beige);padding:18px;border-radius:12px">
+          <div style="font-weight:700">Información</div>
+          <div class="small" style="margin-top:8px">Email: <a id="mailLink" href="mailto:TU_EMAIL_AQUI@gmail.com">TU_EMAIL_AQUI@gmail.com</a></div>
+          <div class="small">Instagram: <a href="https://instagram.com/TU_INSTAGRAM" target="_blank">@TU_INSTAGRAM</a></div>
+          <div class="small">TikTok: <a href="https://tiktok.com/@TU_TIKTOK" target="_blank">@TU_TIKTOK</a></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <div class="small">© <span id="year"></span> María Osorio — Publicidad · Marketing · Creadora de Contenido</div>
+    <div class="socials">
+      <a href="https://instagram.com/TU_INSTAGRAM" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@TU_TIKTOK" target="_blank">TikTok</a>
+      <a href="mailto:TU_EMAIL_AQUI@gmail.com">Email</a>
+    </div>
+  </footer>
+</div>
+
+<script>
+  // Cambia aquí si quieres valores rápidos (usa exactamente tu email y username)
+  const CONFIG = {
+    email: "TU_EMAIL_AQUI@gmail.com",
+    instagram: "TU_INSTAGRAM",
+    tiktok: "TU_TIKTOK"
+  };
+  // Rellenar dinámicamente
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('mailLink').href = 'mailto:'+CONFIG.email;
+  document.getElementById('mailLink').textContent = CONFIG.email;
+  document.querySelectorAll('a[href*="TU_INSTAGRAM"]').forEach(a => a.href = a.href.replace('TU_INSTAGRAM', CONFIG.instagram));
+  document.querySelectorAll('a[href*="TU_TIKTOK"]').forEach(a => a.href = a.href.replace('TU_TIKTOK', CONFIG.tiktok));
+  document.querySelectorAll('a[href*="TU_EMAIL_AQUI"]').forEach(a => a.href = a.href.replace('TU_EMAIL_AQUI', CONFIG.email));
+
+  // Simple "mailto" handler to open mail client with subject and body
+  function sendMail(e){
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const subject = encodeURIComponent('Nuevo proyecto desde web — ' + name);
+    const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`);
+    const mailto = `mailto:${CONFIG.email}?subject=${subject}&body=${body}`;
+    window.location.href = mailto;
+    // muestra mensaje breve
+    const msg = document.getElementById('formMsg');
+    msg.style.display = 'block';
+    msg.textContent = 'Se abrirá tu cliente de correo para enviar el mensaje. Si no se abre, copia y pega este email: ' + CONFIG.email;
+  }
+</script>
+
+</body>
+</html>
